@@ -267,6 +267,7 @@ body {
 
 .filter_list li{
   list-style-type: none;
+  line-height: 1.25vmax;
 
 }
 .filter_list {
@@ -275,12 +276,15 @@ body {
  	align-items: flex-end;
  	justify-content: center;
 	margin-right: 1.25vmax;
+	
+	
 }
 .filter_list__item {
 	color: #6b7072;
 	font-size: 0.67vmax;
 	line-height: 1.25vmax;
 	text-decoration: none;
+	
 }
 
 .filter_list__item:hover {
@@ -402,3 +406,9 @@ body {
 	margin: 0.8vw;
 }
 
+.info-box {
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
