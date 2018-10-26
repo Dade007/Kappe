@@ -170,14 +170,7 @@
 	 box-sizing: border-box;
 }
 
-a, a:hover, button, button:hover, .anime {
-	-moz-transition: all 200ms linear;
-	-o-transition: all 200ms linear;
-	-webkit-transition: all 200ms linear;
-	-ms-transition: all 200ms linear;
-	transition: all 200ms linear;
-	cursor: pointer;
-}
+
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -209,6 +202,10 @@ body {
 }
 .nav li{
 	list-style-type: none;
+	border-bottom: 1px solid #293134;
+}
+.nav li:first-of-type {
+	border-bottom: 0;
 }
 .nav__item {
 	text-decoration: none;
@@ -266,23 +263,22 @@ body {
 }
 
 .filter_list li{
-  list-style-type: none;
-  line-height: 1.25vmax;
+  	list-style-type: none;
+  	line-height: 1.25vmax;
+  	display: flex;
+ 	flex-flow: row nowrap;
+ 	align-items: flex-end;
+ 	justify-content: flex-end;
+ 	align-items: center;
 
 }
-.filter_list {
-	display: flex;
- 	flex-flow: column nowrap;
- 	align-items: flex-end;
- 	justify-content: center;
-	margin-right: 1.25vmax;
-	
-	
-}
+
 .filter_list__item {
+	
+	margin-right: 1.25vmax;
 	color: #6b7072;
 	font-size: 0.67vmax;
-	line-height: 1.25vmax;
+	line-height: 1.25vw;
 	text-decoration: none;
 	
 }
@@ -409,6 +405,47 @@ body {
 .info-box {
 	z-index: 5;
 	position: fixed;
-	top: 0;
+	top: 4.68vw;
 	right: 0;
+	background-color: #000000;
+	opacity: 0.7;
+	padding: 1vw 3.8vw 1vw 1vw ;
+	transform: translateX(100%);
+	transition: all 0.40s;
+}
+
+.info-box.open {
+	transform: translateX(0%);
+	transition: all 0.40s;
+	}
+
+.info-box__icon {
+	height: 0.88vw;
+	margin: 0 0.62vmax 0 0;
+	fill: #fff;
+}
+.info-box__item {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	list-style-type: none;
+	font-size: 0.83vmax;
+	line-height: 1vw;
+	margin-bottom: 1vw;
+	color: #fff;
+}
+
+.info-box__item:last-of-type {
+	margin-bottom: 0;
+}
+
+.nav__item_active {
+	background: rgba(48,188,186,1);
+    background: -moz-linear-gradient(top, rgba(48,188,186,1) 0%, rgba(24,164,162,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,188,186,1)), color-stop(100%, rgba(24,164,162,1)));
+    background: -webkit-linear-gradient(top, rgba(48,188,186,1) 0%, rgba(24,164,162,1) 100%);
+    background: -o-linear-gradient(top, rgba(48,188,186,1) 0%, rgba(24,164,162,1) 100%);
+    background: -ms-linear-gradient(top, rgba(48,188,186,1) 0%, rgba(24,164,162,1) 100%);
+    background: linear-gradient(to bottom, rgba(48,188,186,1) 0%, rgba(24,164,162,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30bcba', endColorstr='#18a4a2', GradientType=0 );
 }
