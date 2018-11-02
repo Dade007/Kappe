@@ -224,10 +224,12 @@ body {
 	opacity: 0.8;
 }
 
+object{
+    pointer-events: none;
+}
 .arrow {
 	width: 3vmax;
 	height: 3vmax;
-	fill: #fff;
 }
 
 .content-box__hover h2 {
@@ -253,7 +255,6 @@ body {
 	background-color: #2db8b7;
 	cursor: pointer;
 	z-index: 5;
-	fill: #fff;
 }
 
 .info__icon {
@@ -275,13 +276,13 @@ body {
 .info-box.open {
 	transform: translateX(0%);
 	transition: all 0.40s;
-	}
+}
 
 .info-box__icon {
 	height: 0.88vw;
 	margin: 0 0.62vmax 0 0;
-	fill: #fff;
 }
+
 .info-box__item {
 	display: flex;
 	flex-flow: row nowrap;
