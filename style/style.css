@@ -14,7 +14,7 @@ body {
 	background-color: #b4b7b8;
 }
 
-.contact__body-img {
+.contact-body-img {
 	background-image: url(../image/map.png);
 	width: 100%;
 	background-repeat: no-repeat;
@@ -108,13 +108,13 @@ body {
 	padding: 1.25vmax;
 }
 
-.filter_title__icon {
+.filter__icon {
 	width: 0.88vmax;
 	height: 0.88vmax;
 	margin-left: 0.62vmax;
 }
 
-.filter_list li{
+.filter-list li{
   	list-style-type: none;
   	line-height: 1.25vmax;
   	display: flex;
@@ -125,7 +125,7 @@ body {
 
 }
 
-.filter_list__item {
+.filter-list__item {
 	
 	margin-right: 1.25vmax;
 	color: #6b7072;
@@ -135,7 +135,7 @@ body {
 	
 }
 
-.filter_list__item:hover {
+.filter-list__item:hover {
 	color: #fff;
 }
 
@@ -1276,7 +1276,7 @@ object{
 		font-size: 1.93vmax;
 	}
 
-	.filter_title__icon {
+	.filter__icon {
 	    width: 1.88vmax;
 	    height: 1.88vmax;
 	    margin-left: 0.62vmax;
@@ -1288,14 +1288,14 @@ object{
 		   padding: 1vw;
 	}
 
-	.filter_list {
+	.filter-list {
 	    display: flex;
 	    flex-flow: row nowrap;
 	    justify-content: space-between;
 	    padding: 1vw 1vw 2vw 1vw;
 	}
 
-	.filter_list__item {
+	.filter-list__item {
 		margin: 0;
 		font-size: 1.67vmax;
 	}
