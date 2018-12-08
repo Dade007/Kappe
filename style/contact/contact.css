@@ -1,0 +1,29 @@
+/*/////////////////Contact/////////////////*/
+
+.contact__form-wrapper {
+	width: 40vw;
+	margin: 1.3vw;
+	padding: 1.56vw 1.56vw 1.56vw 1.56vw;
+	background-color: #fff;
+}
+
+.contact__form {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 1.19vw;
+}
+
+.contact-info	{
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 1.35vw;
+	padding-bottom: 1.36vw;
+}
+
+.contact-info__text {
+	color: #a3a3a3;
+	font-size: 0.93vw;
+	font-weight: 300;
+	line-height: 1.5vw;
+	margin-top: 1.14vw;
+}	

@@ -1,0 +1,167 @@
+/*///////////////BlogPost/////////////////*/
+
+.blog-info-left__comment-list {
+	margin-top: 1.19vw;
+	width: 100%;
+}
+
+.blog-info-left__comment-list ul {
+	list-style-type: none;
+	position: relative;
+}
+
+.blog-info-left__comment-list li {
+	margin-bottom: 1.66vw;
+}
+
+.blog-box-comment {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	width: 100%;
+
+}
+
+.blog-box-comment__description {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	width: 100%;
+	padding-left: 1vw;
+}
+
+.blog-box-comment__wrap-img {
+	position: relative;
+	overflow: hidden;
+	width: 4.71vw;
+	height: 4.16vw;
+}
+
+.blog-box-comment__img {
+	height: 100%;
+	position: absolute;
+  	top: 0;
+  	left: -100%;
+  	right: -100%;
+  	bottom: 0;
+  	margin: auto;
+}
+
+.blog-box-comment__headline {
+	color: #3c3c3c;
+	font-size: 0.72vw;
+	font-weight: 300;
+}
+
+.blog-box-comment__time-text {
+	color: #d1d1d1;
+	font-size: 0.72vw;
+	font-weight: 300;
+}
+
+.blog-box-comment__border {
+	width: 9.63vw;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 0.20vw;
+	margin-top: 0.36vw;
+}
+
+.blog-box-comment__text {
+	color: #a3a3a3;
+	font-weight: 300;
+	font-size: 0.93vw;	
+	line-height: 1.35vw;
+
+}
+
+.blog-info-left__comment-list ul ul {
+	margin-left: 2vw;
+	padding-left: 3vw;
+}
+
+.blog-info-left__comment-list ul ul:before {
+	content: '';
+	display: block;
+	background-image: url('../image/blog-link.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	margin-left: -3vw;
+}
+
+.blog-info-left__form-comment {
+	border-top: 1px solid #e6e6e6;
+	padding-top: 1.45vw;
+}
+.blog-info-left__form {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 1.19vw;
+	margin-bottom: 1.6vw;
+}
+
+.blog-left-form {
+	width: 50%;
+	padding-right: 0.5vw;
+}
+
+.blog-form__input {
+	margin-bottom: 0.5vw;
+}
+
+.blog-left-form .blog-form__input:last-of-type {
+	margin-bottom: 0;
+}
+
+.blog-form__input input, .blog-form__input textarea {
+	border: 1px solid #eaeaea;
+	font-size: 0.72vmax ;
+	min-height: 3vw;
+	width: 100%;
+	padding: 0.93vw;
+}
+
+.form-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3vw;
+	width: 3vw;
+	border: 1px solid #eaeaea;
+}
+
+.form-icon__image {
+	height: 1.56vw;
+	width: 1.56vw;
+}
+
+.blog-form__input {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.blog-right-form {
+	width: 50%;
+}
+
+.blog-right-form__textarea {
+	resize: none;
+	height: 6.5vw;
+	padding-top: 1.3vw;
+}
+
+.blog-right-form__button {
+	border: none;
+    text-transform: uppercase;
+    background-color: #1ab5b3;
+    color: #fff;
+    padding: 1.3vw;
+    font-weight: 400;
+    font-size: 0.72vw;
+	width: 100%;
+	height: 3vw;
+ }
+
