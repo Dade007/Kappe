@@ -82,7 +82,7 @@
 .blog-info-left__comment-list ul ul:before {
 	content: '';
 	display: block;
-	background-image: url('../image/blog-link.png');
+	background-image: url(blog-link.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 2vw;
